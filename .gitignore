@@ -1,0 +1,16 @@
+# secrets
+script/config.py
+.gbif_download_key*
+# large / derived data (GBIF downloads, LLM checkpoints, outputs)
+data/raw/*.csv
+data/raw/*.tsv
+data/raw/*.zip
+data/interim/
+output/
+*.csv
+*.tsv
+*.zip
+__pycache__/
+.DS_Store
+.claude/
+.Rhistory
